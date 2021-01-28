@@ -1,0 +1,22 @@
+{
+    "name":              "yakiv-khorunzhyi/exception-lib",
+    "description":       "Exception with additional functions.",
+    "type":              "library",
+    "version":           "2",
+    "license":           "MIT",
+    "authors":           [
+        {
+            "name":  "Yakiv Khorunzhyi",
+            "email": "yakiv.khorunzhyi@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload":          {
+        "psr-4": {
+            "Lib\\": "src/"
+        }
+    },
+    "require":           {
+        "php": ">=7.2"
+    }
+}
